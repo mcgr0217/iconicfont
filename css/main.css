@@ -22,40 +22,19 @@ body {
     margin: 0;
 }
 
-.icon-water { 
-	color: #4DC8F0;
-	font-size: 30em;
-    padding-top: 4rem;
+.icon-boat { 
+	color: #fff;
+	font-size: 10em;
+    padding: 8rem;
+    text-align: center;
 }
 
 .bg {
     background-color: #4DC8F0;
     padding: 8rem;
+    position: absolute;
     margin-top: -1em;
-}
-
-.btn {
-    background-color: #00E0CA;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    padding: .6em;
-    border-radius: 5px;
-    display: inline-block;
-    margin: .5em;
-    padding-right: .5em;
-}
-
-.btn:hover,
-.btn:active,
-.btn:focus {
-    background-color: #FFCE00;
-    transition: all .1s linear;
-}
-
-.btn i{
-    vertical-align: middle;
-    padding-right: .5em;
+    width: 100%;
 }
 
 .banner {
