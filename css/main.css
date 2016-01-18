@@ -64,6 +64,19 @@ body {
 }
 
 .sea {
-    padding-bottom: 7rem;
+    padding: 2rem 2rem 7rem 2rem;
 }
-    
+
+@media only screen and (min-width: 35em) { 
+    .sea {
+        width: 100%;
+        padding: 5rem;
+	}
+}
+
+@media only screen and (min-width: 50em) { 
+    .sea {
+        width: 100%;
+        padding: 8rem;
+	}
+}
