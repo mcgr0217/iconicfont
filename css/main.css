@@ -17,6 +17,15 @@ html {
 	box-sizing: inherit;
 }
 
+body { 
+	background-color: #FFFCCC;
+}
+
+.icon-water { 
+	color: #2CD2FF;
+	font-size: 30em;
+}
+
 .btn {
     background-color: #00E0CA;
     color: #fff;
@@ -39,5 +48,9 @@ html {
 .btn i{
     vertical-align: middle;
     padding-right: .5em;
+}
+
+.banner {
+    width: 100%;
 }
     
