@@ -38,29 +38,40 @@ body {
 	position: absolute;
 	-webkit-animation: animated 6s linear infinite; 
     animation: animated  6s linear infinite;
+    -webkit-animation: popup 6s linear infinite; 
+    animation: popup 6s linear infinite;
 }
 
 @-webkit-keyframes animated{
     from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
-    to   { -webkit-transform: rotate(5deg) translateX(50px) rotate(5deg); }
-    to   { -webkit-transform: rotate(-5deg) translateX(50px) rotate(-5deg); }
+    to   { -webkit-transform: rotate(10deg) translateX(30px) rotate(10deg); }
+}
+
+@-webkit-keyframes popup {
+    0% {
+    transform: translatex(10px);
+    }
+    44% {
+    transform: translatex(20px);
+    }
+    75% {
+    transform: translatex(40px);
+    }
 }
 
 .bg {
     background-color: #4DC8F0;
-    padding: 8rem;
-    position: absolute;
-    margin-top: -1em;
     width: 100%;
 }
 
 .banner {
     width: 100%;
+    padding-top: 3rem;
     margin: 0;
 }
 
 .sea {
-    padding: 2rem 2rem 7rem 2rem;
+    padding: 2rem 2rem 10rem 2rem;
 }
 
 @media only screen and (min-width: 35em) { 
@@ -72,8 +83,8 @@ body {
 
 @media only screen and (min-width: 50em) { 
     .sea {
-        width: 60%;
+        width: 80%;
         align-content: center;
-        padding: 8rem;
+        padding-left: 20rem;
 	}
 }
