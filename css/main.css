@@ -25,8 +25,25 @@ body {
 .icon-boat { 
 	color: #fff;
 	font-size: 10em;
-    padding: 8rem;
+    padding: 8rem 8rem;
     text-align: center;
+    
+}
+
+.icon-boat:hover {
+    color: #FFC36C;
+}
+
+.bounce {
+	position: absolute;
+	-webkit-animation: animated 6s linear infinite; 
+    animation: animated  6s linear infinite;
+}
+
+@-webkit-keyframes animated{
+    from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
+    to   { -webkit-transform: rotate(5deg) translateX(50px) rotate(5deg); }
+    to   { -webkit-transform: rotate(-5deg) translateX(50px) rotate(-5deg); }
 }
 
 .bg {
@@ -55,7 +72,8 @@ body {
 
 @media only screen and (min-width: 50em) { 
     .sea {
-        width: 100%;
+        width: 60%;
+        align-content: center;
         padding: 8rem;
 	}
 }
