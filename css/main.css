@@ -49,13 +49,16 @@ body {
 
 @-webkit-keyframes popup {
     0% {
-    transform: translatex(10px);
+    transform: translateX(10px);
     }
-    44% {
-    transform: translatex(20px);
+    0% {
+    transform: translateY(10px);
     }
-    75% {
-    transform: translatex(40px);
+    20% {
+    transform: translateX(40px);
+    }
+    20% {
+    transform: translateY(20px);
     }
 }
 
